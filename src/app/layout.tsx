@@ -70,19 +70,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         {children}
+        
+        {/* Słowa kluczowe - nad footerem */}
+        <section className="bg-gray-50 py-6">
+          <div className="container">
+            <p className="text-sm text-gray-600 text-center">
+              <strong>Słowa kluczowe:</strong> stawy biodrowe usg, usg bioder dzieci, chirurg dziecięcy Rzeszów, 
+              chirurg dziecięcy Sędziszów, usg dzieci Rzeszów, usg dzieci Sędziszów, 
+              usg bioder Rzeszów, usg bioder Sędziszów, przepuklina dzieci, stulejka, 
+              niezstąpione jądro, usg Sędziszów, usg tarczycy Sędziszów
+            </p>
+          </div>
+        </section>
+        
         <footer className="border-t mt-10">
-          <div className="container py-8 text-sm text-gray-600 grid md:grid-cols-2 gap-6">
+          <div className="container py-8 text-sm text-gray-600">
             <div>
               <p>Copyright © 2015–{new Date().getFullYear()}, Lek.med. Jerzy Robert Machowski</p>
               <p className="mt-2">Kontakt mailowy: <a className="link" href="mailto:kontakt@jerzymachowski.pl">kontakt@jerzymachowski.pl</a></p>
-            </div>
-            <div className="md:text-right">
-              <p className="text-xs text-gray-500">
-                Słowa kluczowe: stawy biodrowe usg, usg bioder dzieci, chirurg dziecięcy Rzeszów, 
-                chirurg dziecięcy Sędziszów, usg dzieci Rzeszów, usg dzieci Sędziszów, 
-                usg bioder Rzeszów, usg bioder Sędziszów, przepuklina dzieci, stulejka, 
-                niezstąpione jądro, usg Sędziszów, usg tarczycy Sędziszów
-              </p>
             </div>
           </div>
         </footer>
