@@ -1,26 +1,49 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root { 
+  color-scheme: light only;
+  --font-inter: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-gray-900 font-sans; }
+
+/* Scroll offset for fixed header */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+.container { @apply max-w-5xl mx-auto px-4; }
+.section { @apply py-10 md:py-16; }
+.h1 { @apply text-3xl md:text-5xl font-semibold tracking-tight font-serif; }
+.h2 { @apply text-2xl md:text-3xl font-semibold font-serif; }
+.p { @apply leading-relaxed text-base md:text-lg; }
+.card { @apply rounded-2xl border border-gray-200 shadow-sm bg-white transition-all duration-300 hover:shadow-lg hover:shadow-brand-100 hover:border-brand-200 hover:-translate-y-1; }
+.badge { @apply inline-flex items-center rounded-full border px-3 py-1 text-sm transition-all duration-300 hover:bg-brand-50 hover:border-brand-300 hover:scale-105; }
+.btn-primary { @apply inline-flex items-center justify-center rounded-2xl bg-brand-600 hover:bg-brand-700 text-white font-medium px-5 py-3 transition-all duration-300 hover:shadow-lg hover:shadow-brand-200 hover:scale-105 active:scale-95; }
+.link { @apply text-brand-700 hover:text-brand-900 underline underline-offset-4 transition-all duration-300 hover:underline-offset-8; }
+
+/* Modern hover effects */
+.hover-lift {
+  @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-brand-100;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.hover-glow {
+  @apply transition-all duration-300 hover:shadow-lg hover:shadow-brand-200;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.hover-scale {
+  @apply transition-all duration-300 hover:scale-105 active:scale-95;
+}
+
+/* Hide "Zobacz opinie" button on mobile */
+@media (max-width: 639px) {
+  a[href="#opinie"] {
+    display: none !important;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+/* Accessibility helpers */
+.skip-link { position: absolute; left: -999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+.skip-link:focus { left: 1rem; top: 1rem; width: auto; height: auto; z-index: 50; @apply bg-white border px-3 py-2 rounded-lg shadow; }
