@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jerzymachowski.pl"),
+  metadataBase: new URL("https://jerzymachowski.net.pl"),
   title: {
     default: "Lek.med. Jerzy Robert Machowski – Specjalistyczny Gabinet Chirurgii Dziecięcej i Pracownia Ultrasonografii dla dzieci",
     template: "%s | Lek.med. Jerzy Robert Machowski",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://jerzymachowski.pl/",
+    url: "https://jerzymachowski.net.pl/",
     title: "Lek.med. Jerzy Robert Machowski – Chirurg Dziecięcy",
     description:
       "Specjalista Wojewódzki d/s chirurgii dziecięcej dla woj. podkarpackiego. Klinika Chirurgii Dziecięcej i Urologii – Szpital Wojewódzki Nr 2 w Rzeszowie.",
@@ -87,7 +87,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="container py-8 text-sm text-gray-600">
             <div>
               <p>Copyright © 2015–{new Date().getFullYear()}, Lek.med. Jerzy Robert Machowski</p>
-              <p className="mt-2">Kontakt mailowy: <a className="link" href="mailto:kontakt@jerzymachowski.pl">kontakt@jerzymachowski.pl</a></p>
+              <p className="mt-2">Kontakt mailowy: <a className="link" href="mailto:kontakt@jerzymachowski.net.pl">kontakt@jerzymachowski.net.pl</a></p>
             </div>
           </div>
         </footer>

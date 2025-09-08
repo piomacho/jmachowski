@@ -1,7 +1,7 @@
 export async function GET() {
     const body = `/* TEAM */
 Developer: Lek.med. Jerzy Robert Machowski
-Contact: kontakt@jerzymachowski.pl
+Contact: kontakt@jerzymachowski.net.pl
 Location: Rzeszów, Sędziszów Małopolski, Polska
 Specialization: Chirurgia dziecięca, Ultrasonografia dzieci
 

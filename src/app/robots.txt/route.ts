@@ -5,8 +5,8 @@ export function GET(): Response {
     rules: [
       { userAgent: "*", allow: "/" },
     ],
-    sitemap: "https://jerzymachowski.pl/sitemap.xml",
-    host: "https://jerzymachowski.pl",
+    sitemap: "https://jerzymachowski.net.pl/sitemap.xml",
+    host: "https://jerzymachowski.net.pl",
   };
 
   const robotsText = `User-agent: *
@@ -19,10 +19,10 @@ Disallow: /admin/
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://jerzymachowski.pl/sitemap.xml
+Sitemap: https://jerzymachowski.net.pl/sitemap.xml
 
 # Host preference
-Host: https://jerzymachowski.pl`;
+Host: https://jerzymachowski.net.pl`;
 
   return new Response(robotsText, {
     headers: {
