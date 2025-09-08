@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <li><a href="#kontakt" className="hover:underline">Kontakt</a></li>
               </ul>
             </nav>
-            <a href="tel:+48178536607" className="btn-primary text-sm">Zadzwoń już dziś</a>
+            <a href="tel:+48178536607" className="btn-primary text-sm">Zadzwoń</a>
           </div>
         </header>
         {children}
