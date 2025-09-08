@@ -7,7 +7,7 @@ export default function Page() {
     name: "Lek.med. Jerzy Robert Machowski",
     alternateName: "Jerzy Robert Machowski",
     description:
-      "Specjalista Wojewódzki d/s chirurgii dziecięcej dla woj. podkarpackiego. Zatrudniony w Klinice Chirurgii Dziecięcej i Urologii Szpital Wojewódzki Nr 2 w Rzeszowie. Pełni funkcję kierownika kliniki.",
+      "Specjalista Wojewódzki d/s chirurgii dziecięcej dla woj. podkarpackiego. Zatrudniony w Klinice Chirurgii Dziecięcej i Urologii Szpitala Wojewódzkiego Nr 2 w Rzeszowie. Pełni funkcję kierownika kliniki.",
     url: "https://jerzymachowski.pl",
     image: "https://jerzymachowski.pl/images/doctor2.jpeg",
     email: "kontakt@jerzymachowski.pl",
