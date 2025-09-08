@@ -35,11 +35,25 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   category: "healthcare",
+  // Optymalizacje wydajności
+  other: {
+    'X-DNS-Prefetch-Control': 'on',
+    'X-Content-Type-Options': 'nosniff',
+    'X-Frame-Options': 'DENY',
+    'X-XSS-Protection': '1; mode=block',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pl">
+      <head>
+        {/* Preload critical resources */}
+        <link rel="preload" href="/images/doctor2.jpeg" as="image" />
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//www.google.com" />
+        <link rel="dns-prefetch" href="//www.znanylekarz.pl" />
+      </head>
       <body>
         <a href="#content" className="skip-link">Przejdź do treści</a>
         <header className="sticky top-0 z-40 bg-white/90 backdrop-blur border-b">
