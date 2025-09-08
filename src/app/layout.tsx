@@ -44,9 +44,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#content" className="skip-link">Przejdź do treści</a>
         <header className="sticky top-0 z-40 bg-white/90 backdrop-blur border-b">
           <div className="container flex items-center justify-between py-3 gap-4">
-            <a href="#hero" className="font-semibold text-lg md:text-xl">Lek.med. Jerzy Robert Machowski</a>
+            <a href="#hero" className="font-semibold text-lg md:text-xl">Lek. med. Jerzy Robert Machowski</a>
             <nav aria-label="Główne">
-              <ul className="hidden md:flex gap-6 text-sm">
+              <ul className="hidden md:flex gap-6 text-base">
                 <li><a href="#o-mnie" className="hover:underline">O mnie</a></li>
                 <li><a href="#opinie" className="hover:underline">Opinie</a></li>
                 <li><a href="#kontakt" className="hover:underline">Kontakt</a></li>
