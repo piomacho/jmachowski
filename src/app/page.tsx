@@ -212,7 +212,7 @@ export default function Page() {
               <div className="card p-5 hover-lift">
                 <h3 className="font-semibold">Gabinet Chirurgii Dziecięcej i Urologii<br/>Pracownia Ultrasonografii dla dzieci</h3>
                 <p className="p mt-2">Rzeszów ul. Wieniawskiego 3</p>
-                <p className="p">Środa od godz. 15:00–17:00</p>
+                <p className="p mt-2">Środa od godz. 15:00–17:00</p>
                 <p className="p mt-2 font-medium">Rejestracja:</p>
                 <ul className="mt-1 space-y-1">
                   <li><a className="link" href="tel:+48178536607">17 853 66 07</a></li>
@@ -222,7 +222,7 @@ export default function Page() {
               <div className="card p-5 hover-lift">
                 <h3 className="font-semibold">Gabinet Chirurgii Dziecięcej i Urologii<br/>Pracownia Ultrasonografii dla dzieci</h3>
                 <p className="p mt-2">Sędziszów Małopolski ul. 3 Maja 29</p>
-                <p className="p">Poniedziałki od godz. 15:00</p>
+                <p className="p mt-2">Poniedziałki od godz. 15:00</p>
                 <p className="p mt-2 font-medium">Rejestracja od poniedziałku do piątku 7:00–9:30 i 14:30–16:00</p>
                 <ul className="mt-1 space-y-1">
                   <li><a className="link" href="tel:+48172226809">17 222 68 09</a></li>
