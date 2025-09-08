@@ -141,7 +141,7 @@ export default function Page() {
         <div className="relative z-10 flex items-center min-h-screen p-8 lg:p-12">
           <div className="max-w-2xl">
             <h1 className="h1 text-white mb-6">
-              Lek.med. Jerzy Robert Machowski - Chirurg Dziecięcy z ponad 30 letnim stażem pracy
+              Lek. med. Jerzy Robert Machowski - Chirurg Dziecięcy z ponad 30 letnim stażem pracy
             </h1>
             <p className="p text-white/90 mb-8">
               <strong>Specjalista Wojewódzki d/s chirurgii dziecięcej dla woj. podkarpackiego</strong>
@@ -200,7 +200,7 @@ export default function Page() {
               </svg>
               Informacje o mnie
             </h2>
-            <p className="p mt-4 text-center">Lek.med. Jerzy Machowski</p>
+            <p className="p mt-4 text-center">Lek. med. Jerzy Machowski</p>
             <p className="p mt-2 text-center">
               Specjalista Wojewódzki d/s chirurgii dziecięcej dla woj. podkarpackiego -
               zatrudniony w Klinice Chirurgii Dziecięcej i Urologii szpital
@@ -320,7 +320,7 @@ export default function Page() {
                   </svg>
                   Sędziszów Małopolski ul. 3 Maja 29
                 </h3>
-                <p className="p">Poniedziałki od godz. 15:00</p>
+                <p className="p mt-2">Poniedziałki od godz. 15:00</p>
                 <p className="p mt-2 font-medium">Rejestracja od poniedziałku do piątku 7:00–9:30 i 14:30–16:00</p>
                 <ul className="mt-1 space-y-1">
                   <li><a className="link" href="tel:+48172226809">17 222 68 09</a></li>
@@ -334,7 +334,7 @@ export default function Page() {
                   </svg>
                   Rzeszów ul. Wieniawskiego 3
                 </h3>
-                <p className="p">Środa od godz. 15:00–17:00</p>
+                <p className="p mt-2">Środa od godz. 15:00–17:00</p>
                 <p className="p mt-2 font-medium">Rejestracja:</p>
                 <ul className="mt-1 space-y-1">
                   <li><a className="link" href="tel:+48178536607">17 853 66 07</a></li>
