@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   description:
     "Specjalista Wojewódzki d/s chirurgii dziecięcej dla woj. podkarpackiego. Klinika Chirurgii Dziecięcej i Urologii – Szpital Wojewódzki Nr 2 w Rzeszowie. Kierownik kliniki. Certyfikat PTU dla wykonywania badań u dzieci.",
   alternates: { canonical: "/" },
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' }
+    ],
+    apple: [
+      { url: '/apple-icon.svg', type: 'image/svg+xml' }
+    ],
+  },
   openGraph: {
     type: "website",
     url: "https://jerzymachowski.pl/",
