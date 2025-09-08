@@ -54,7 +54,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <p>Copyright © 2015–{new Date().getFullYear()}, Lek.med. Jerzy Robert Machowski</p>
               <p className="mt-2">Kontakt mailowy: <a className="link" href="mailto:kontakt@jerzymachowski.pl">kontakt@jerzymachowski.pl</a></p>
             </div>
-            <p className="md:text-right">Realizacja: <a className="link" href="https://topsa.pl" rel="nofollow">TOPSA</a></p>
             
           </div>
         </footer>
