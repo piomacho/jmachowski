@@ -76,7 +76,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <p>Copyright © 2015–{new Date().getFullYear()}, Lek.med. Jerzy Robert Machowski</p>
               <p className="mt-2">Kontakt mailowy: <a className="link" href="mailto:kontakt@jerzymachowski.pl">kontakt@jerzymachowski.pl</a></p>
             </div>
-            
+            <div className="md:text-right">
+              <p className="text-xs text-gray-500">
+                Słowa kluczowe: stawy biodrowe usg, usg bioder dzieci, chirurg dziecięcy Rzeszów, 
+                chirurg dziecięcy Sędziszów, usg dzieci Rzeszów, usg dzieci Sędziszów, 
+                usg bioder Rzeszów, usg bioder Sędziszów, przepuklina dzieci, stulejka, 
+                niezstąpione jądro, usg Sędziszów, usg tarczycy Sędziszów
+              </p>
+            </div>
           </div>
         </footer>
       </body>

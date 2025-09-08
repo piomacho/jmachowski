@@ -97,21 +97,6 @@ export default function Page() {
         }
       },
     ],
-    keywords: [
-      "stawy biodrowe usg",
-      "usg bioder dzieci",
-      "chirurg dziecięcy Rzeszów",
-      "chirurg dziecięcy Sędziszów",
-      "usg dzieci Rzeszów",
-      "usg dzieci Sędziszów",
-      "usg bioder Rzeszów",
-      "usg bioder Sędziszów",
-      "przepuklina dzieci",
-      "stulejka",
-      "niezstąpione jądro",
-      "usg Sędziszów",
-      "usg tarczycy Sędziszów",
-    ],
     serviceType: [
       "Chirurgia dziecięca",
       "Ultrasonografia dzieci",
