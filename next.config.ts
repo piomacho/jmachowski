@@ -29,10 +29,10 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: 'host',
-            value: 'www.jerzymachowski.net.pl',
+            value: 'www.jerzymachowski.com.pl',
           },
         ],
-        destination: 'https://jerzymachowski.net.pl/:path*',
+        destination: 'https://jerzymachowski.com.pl/:path*',
         permanent: true,
       },
     ];

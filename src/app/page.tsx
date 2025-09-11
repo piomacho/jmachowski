@@ -8,9 +8,9 @@ export default function Page() {
     alternateName: "Jerzy Robert Machowski",
     description:
       "Specjalista Wojewódzki d/s chirurgii dziecięcej dla woj. podkarpackiego. Zatrudniony w Klinice Chirurgii Dziecięcej i Urologii Szpitala Wojewódzkiego Nr 2 w Rzeszowie. Pełni funkcję kierownika kliniki.",
-    url: "https://jerzymachowski.net.pl",
-    image: "https://jerzymachowski.net.pl/images/doctor2.jpeg",
-    email: "kontakt@jerzymachowski.net.pl",
+    url: "https://jerzymachowski.com.pl",
+    image: "https://jerzymachowski.com.pl/images/doctor2.jpeg",
+    email: "kontakt@jerzymachowski.com.pl",
     telephone: ["+48 17 853 66 07", "+48 690 068 376", "+48 17 222 68 09", "+48 792 591 915"],
     sameAs: [
       "https://www.znanylekarz.pl/jerzy-robert-machowski/chirurg-dzieciecy/rzeszow"
@@ -333,7 +333,7 @@ export default function Page() {
                   </svg>
                   Kontakt mailowy
                 </h3>
-                <p className="p"><a className="link" href="mailto:kontakt@jerzymachowski.net.pl">kontakt@jerzymachowski.net.pl</a></p>
+                <p className="p"><a className="link" href="mailto:kontakt@jerzymachowski.com.pl">kontakt@jerzymachowski.com.pl</a></p>
               </div>
             </div>
             
